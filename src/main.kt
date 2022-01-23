@@ -11,6 +11,15 @@ fun main() {
 //    val s: square = square(10)
 //    println("square's sq is ${s.sq()}")
 
-    val b: beretta = beretta()
-    b.toShoot()
+//    val b: beretta = beretta()
+//    b.toShoot()
+
+    val storage = SugarStorage(100)
+    storage.decreaseSugar(95)
+
+    println(storage.volume)
+
+    storage.increaseSugar(5)
+
+    println(storage.volume)
 }
